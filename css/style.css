@@ -788,7 +788,10 @@ section .container{ padding-top:8vh;}
 .sections-wrapper > section.no-padding-bottom .padding-fix {
 	padding-bottom: 72px;
 }
-.section1-img{	height: 80vh;	}
+.section1-img{
+    height: 80vh;
+    max-width: fit-content;
+}
 .section-img {
 	margin: 0 auto;
 }
@@ -1139,6 +1142,10 @@ section .container{ padding-top:8vh;}
 /* ==========================================================================
    15. Education
    ========================================================================== */
+.education-icon-row{
+    display: flex;
+    justify-content: space-evenly;
+}
 .education {
 	padding: 132px 0;
 	margin: 72px 0;
