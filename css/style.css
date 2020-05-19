@@ -32,6 +32,39 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
 @import url(https://fonts.googleapis.com/css?family=Lato:700);
 
+.color-move{
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 20px;
+  border-radius: 25px;
+
+  background: rgb(58,180,107);
+  background: linear-gradient(45deg, rgba(58,180,107,0.7514356084230567) 16%, rgba(131,58,180,0.7514356084230567) 42%, rgba(253,29,29,0.6477941518404237) 65%, rgba(242,252,69,0.7374300061821604) 83%);
+  background-size: 400% 400%;
+  animation: gradient 6s ease infinite;
+  animation-direction: alternate;
+}
+
+@keyframes gradient {
+    0%{background-position:0% 50%}
+    100%{background-position:100% 50%}
+}
+
+@-webkit-keyframes continuous {
+    0%{background-position:92% 0%}
+    50%{background-position:9% 100%}
+    100%{background-position:92% 0%}
+}
+
+@keyframes mymove {
+  0% {background: linear-gradient(0deg, red, yellow); color: black;}
+  25% {background: linear-gradient(90deg, red, yellow); color: white;}
+  50% {background: linear-gradient(180deg, red, yellow); color: black;}
+  75% {background: linear-gradient(270deg, red, yellow); color: black;}
+  100% {background: linear-gradient(360deg, red, yellow); color: black;}
+}
+
 :root {
     --main-color:#50c878;
 
@@ -498,14 +531,14 @@ input:not([type=submit]):not([type=file]):focus, select:focus, textarea:focus {
 	transition: all .25s;
 }
 .header:hover, .scrolled-header{
-    line-height: 70px!important;
-	height: 70px!important;
+    line-height: 70px;
+	height: 70px;
     box-shadow: 0 1px 6px rgba(0,0,0,.3);
 	background: #fff;
 }
 .header:hover *, .scrolled-header *{
-    line-height: 70px!important;
-	height: 70px!important;
+    line-height: 70px;
+	height: 70px;
 }
 .header .title {
 	font-size: 18px;
