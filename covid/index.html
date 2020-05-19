@@ -5,52 +5,87 @@
     <meta charset="utf-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-	<link rel="icon" href="../images/favicon.ico" type="image.ico" alt="Sigla Andrea Baraldi">
+    <link rel="icon" href="../images/favicon.ico" type="image.ico" alt="Sigla Andrea Baraldi">
     <title>Analisi andamento COVID-19 in Italia | di Andrea Baraldi</title>
+    <link href="https://colab.research.google.com/v2/external/outputframe.css?vrz=colab-20200514-085600-RC00_311492651"
+          rel="stylesheet">
     <style>
+    html{overflow:visible;}
 	body *{
 	  text-align:center;
 	  width: 100%;
 	  margin: 0 auto;
 	}
 	body { font-family: Arial, Helvetica, sans-serif;}
+	.dataframe-div{ width:80vw; padding-bottom: 5vh;}
+
+
+
+
     </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(function(){
+      $("#frame01").load("https://raw.githubusercontent.com/baraldian/analyzing-covid-infections-italy/master/plots/frame01.html");
+      $("#frame02").load("https://raw.githubusercontent.com/baraldian/analyzing-covid-infections-italy/master/plots/frame02.html");
+    });
+
+
+
+
+    </script>
 </head>
 <body>
+
 <h1 id="cresciata-giornaliera-di-contagi-sullintero-territorio-italiano">Cresciata giornaliera di contagi sull'intero
     territorio Italiano</h1>
 <p><img alt="Nuovi contagi Italia"
         src="https://raw.githubusercontent.com/baraldian/analyzing-covid-infections-italy/master/plots/Italia.jpg"/></p>
+
 <h1 id="crescita-giornaliere-di-contagi-per-le-province-con-maggior-crescita">Crescita giornaliere di contagi per le
     province con maggior crescita</h1>
 <p><img alt="Nuovi contagi provincie"
-        src="https://raw.githubusercontent.com/baraldian/analyzing-covid-infections-italy/master/plots/Provincie-01.jpg"/></p>
+        src="https://raw.githubusercontent.com/baraldian/analyzing-covid-infections-italy/master/plots/Provincie-01.jpg"/>
+</p>
+<div id="frame01" class="dataframe-div"></div>
+
 <h1 id="crescita-giornaliera-di-contagi-mediata-su-un-intervallo-di-4-giorni-per-le-province-con-maggior-crescita">
     Crescita giornaliera di contagi mediata su un intervallo di 4 giorni per le province con maggior crescita</h1>
-<iframe src="https://raw.githubusercontent.com/baraldian/analyzing-covid-infections-italy/master/plots/frame01.html" width="300" height="300"></iframe>
 <p><img alt="Nuovi contagi provincie stabilizzati"
-        src="https://raw.githubusercontent.com/baraldian/analyzing-covid-infections-italy/master/plots/Provincie-02.jpg"/></p>
+        src="https://raw.githubusercontent.com/baraldian/analyzing-covid-infections-italy/master/plots/Provincie-02.jpg"/>
+</p>
+
 <h1 id="crescita-giornaliera-di-contagi-a-mantova">Crescita giornaliera di contagi a Mantova</h1>
 <p><img alt="Crescita giornaliera di contagi a Mantova"
-        src="https://raw.githubusercontent.com/baraldian/analyzing-covid-infections-italy/master/plots/Mantova.jpg"/></p>
+        src="https://raw.githubusercontent.com/baraldian/analyzing-covid-infections-italy/master/plots/Mantova.jpg"/>
+</p>
+
 <h1 id="crescita-giornaliera-per-le-regioni-maggiormente-infette">Crescita giornaliera per le regioni maggiormente
     infette</h1>
 <p><img alt="Crescita giornaliera per le regioni maggiormente infette"
-        src="https://raw.githubusercontent.com/baraldian/analyzing-covid-infections-italy/master/plots/Regioni.jpg"/></p>
+        src="https://raw.githubusercontent.com/baraldian/analyzing-covid-infections-italy/master/plots/Regioni.jpg"/>
+</p>
+<div id="frame02" class="dataframe-div"></div>
+
 <h1 id="contagi-totali-in-italia">Contagi totali in Italia</h1>
 <p><img alt="Contagi totali in Italia"
-        src="https://raw.githubusercontent.com/baraldian/analyzing-covid-infections-italy/master/plots/Totale%20Italia.jpg"/></p>
+        src="https://raw.githubusercontent.com/baraldian/analyzing-covid-infections-italy/master/plots/Totale%20Italia.jpg"/>
+</p>
+
 <h1 id="contagi-totali-per-le-province-maggiormente-infette">Contagi totali per le province maggiormente infette</h1>
 <p><img alt="Totale Provincie"
         src="https://raw.githubusercontent.com/baraldian/analyzing-covid-infections-italy/master/plots/Totale%20Provincie.jpg"/>
 </p>
+
 <h1 id="contagi-totali-a-mantova">Contagi totali a Mantova</h1>
 <p><img alt="Nuovi contagi Italia"
-        src="https://raw.githubusercontent.com/baraldian/analyzing-covid-infections-italy/master/plots/Totale%20Mantova.jpg"/></p>
+        src="https://raw.githubusercontent.com/baraldian/analyzing-covid-infections-italy/master/plots/Totale%20Mantova.jpg"/>
+</p>
+
 <h1 id="contagi-totali-regioni">Contagi totali regioni</h1>
 <p><img alt="Contagi totali regioni"
-        src="https://raw.githubusercontent.com/baraldian/analyzing-covid-infections-italy/master/plots/Totale%20regioni.jpg"/></p>
-
+        src="https://raw.githubusercontent.com/baraldian/analyzing-covid-infections-italy/master/plots/Totale%20regioni.jpg"/>
+</p>
 </body>
-
 </html>
