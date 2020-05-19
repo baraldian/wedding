@@ -38,12 +38,23 @@
     vertical-align: middle;
     padding: 10px 20px;
   border-radius: 25px;
-
-  background: rgb(58,180,107);
-  background: linear-gradient(45deg, rgba(58,180,107,0.7514356084230567) 16%, rgba(131,58,180,0.7514356084230567) 42%, rgba(253,29,29,0.6477941518404237) 65%, rgba(242,252,69,0.7374300061821604) 83%);
+  background: rgb(114,22,184);
+  background: linear-gradient(90deg, rgba(114,22,184,1) 0%, rgba(29,253,104,1) 50%, rgba(252,69,116,1) 100%);
   background-size: 400% 400%;
-  animation: gradient 6s ease infinite;
-  animation-direction: alternate;
+    animation: gradient 8s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.text-gradient{
+background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 10%, rgba(42,0,74,1) 50%, rgba(255,255,255,1) 81%);
+  background-size: 400% 100%;
+    animation: gradient 8s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @keyframes gradient {
