@@ -46,6 +46,20 @@
     animation-timing-function: ease-in-out;
 }
 
+.color-move2{
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 20px;
+  border-radius: 25px;
+  background: rgb(247,241,40);
+  background: radial-gradient(circle, rgba(247,241,40,1) 0%, rgba(78,124,255,1) 100%);
+  background-size: 400% 400%;
+    animation: gradient 8s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
 .text-gradient{
 background: rgb(255,255,255);
 background: linear-gradient(90deg, rgba(255,255,255,1) 10%, rgba(42,0,74,1) 50%, rgba(255,255,255,1) 81%);
