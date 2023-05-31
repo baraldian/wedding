@@ -22,7 +22,7 @@ DJ per intrattenerci durante la giornata.
 Il brindisi degli sposi darà ufficialmente il via al pranzo di nozze verso le ore 17:30-18.
 Per i più piccoli ricordatevi di chiederci di fare un menù a parte.
 
-Dopo il taglio della torta, abbiamo pensato di allietarvi con un po' di musica di accompagnamento.
+Dopo il taglio della torta, abbiamo organizzato un momento dedicato al ballo.
 
 
 [//]: # (Mi raccomando non dimenticate di farvi scattare una foto dai fotografi!)
