@@ -12,17 +12,18 @@ un rarissimo esempio di Corte storica mantovana perfettamente conservata e
 risalente al XV secolo circondata da un ampio parco.
 Ancora dedita alla coltura del riso.
 
+
+{{< sc_costavecchia >}}
+
 Si potrà rimanere alla villa fino alle ore 1.00.
 
 La villa dispone di una sala da ballo e sarà presente un
 DJ per intrattenerci durante la giornata.
 
-{{< sc_costavecchia >}}
-
-Il brindisi degli sposi darà ufficialmente il via al pranzo di nozze verso le ore 17:30-18.
+Il brindisi degli sposi darà ufficialmente il via alla cena di nozze verso le ore 17:30-18.
 Per i più piccoli ricordatevi di chiederci di fare un menù a parte.
 
-Dopo il taglio della torta, abbiamo organizzato un momento dedicato al ballo.
+Dopo il taglio della torta, abbiamo organizzato un momento dedicato al **ballo**.
 
 
 [//]: # (Mi raccomando non dimenticate di farvi scattare una foto dai fotografi!)
