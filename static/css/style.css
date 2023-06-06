@@ -1,0 +1,12 @@
+visually-spaced+.visually-spaced:before {
+    content: " ";
+    letter-spacing: .25rem;
+    color: black;
+}
+
+#iban {
+  color: black;
+  font-family: monospace;
+  font-size: 2rem;
+  /*cursor: pointer;*/
+}

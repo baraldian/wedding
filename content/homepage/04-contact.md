@@ -6,7 +6,4 @@ header_menu: false
 ---
 <br/><br/>
 
-Andrea: 
-
-
 {{< phone >}}

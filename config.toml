@@ -17,6 +17,8 @@ title = "Matrimonio Vittoria Andrea"
 # Theme-specific variables `.Site.Params.myParamName`
 [params]
 
+
+    custom_css = ["css/style.css"]
     # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
     favicon = "images/favicon.png"
 
@@ -35,7 +37,7 @@ title = "Matrimonio Vittoria Andrea"
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
     # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-    title = "Matrimonio Vittoria Andrea 2"
+    title = "Matrimonio Vittoria Andrea"
 
     # The "description" of your website. This is used in the meta data of your generated html.
     description = "Matrimonio Vittoria Andrea"
@@ -50,6 +52,6 @@ title = "Matrimonio Vittoria Andrea"
 
     # The sections of the home page alternate styling. Mark invert as true to swap the styling of the sections
     invertSectionColors = false
-    
+
     [params.meta]
         keywords = "matrimonio, vittoria, andrea, mantova"
