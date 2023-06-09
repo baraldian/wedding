@@ -24,8 +24,6 @@ Se volete contribuire potete farlo al seguente iban:
 
 {{< iban >}}
 
-Destinazione ??? 
-
 ---
 ##### Dove posso pernottare?
 Se avete bisogno di trovare una soluzione per la notte,
