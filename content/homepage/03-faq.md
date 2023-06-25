@@ -24,6 +24,9 @@ Se volete contribuire potete farlo al seguente iban:
 
 {{< iban >}}
 
+[//]: # (https://poll.ly/TSx7EdBcKO0FlVlcLXZu/0V3emL3YOS4RTTEwXVaE)
+
+{{< poll >}}
 ---
 ##### Dove posso pernottare?
 Se avete bisogno di trovare una soluzione per la notte,
