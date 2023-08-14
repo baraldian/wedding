@@ -9,6 +9,6 @@ header_use_video: false
 #header_logo: "images/chef-hat.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
-header_headline: "Matrimonio<br/> Vittoria e Andrea"
-#header_subheadline: "<b>Nutrition</b> Coach & <b>Chef</b> Consultant"
+header_headline: "Matrimonio <br/> Vittoria e Andrea<br/>"
+header_subheadline: "Duomo di Mantova 16/9/23 ore 15:00"
 ---
